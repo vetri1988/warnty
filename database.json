@@ -1,0 +1,289 @@
+{
+  "admins": [
+    {
+      "id": "adm-01",
+      "username": "admin",
+      "email": "admin@batterywarranty.com",
+      "password": "$2b$10$5yEGpgOGpY9AFwTFM/Hdbe545UENdhIdk/48t8moKWJe7hsHxbNSu",
+      "role": "Admin",
+      "createdAt": "2026-05-30T14:41:43.545Z"
+    }
+  ],
+  "makes": [
+    {
+      "id": "mk-exide",
+      "name": "EXIDE",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "mk-amaron",
+      "name": "AMARON",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "mk-sfsonic",
+      "name": "SF SONIC",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "mk-luminous",
+      "name": "LUMINOUS",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    }
+  ],
+  "models": [
+    {
+      "id": "md-ex1",
+      "makeId": "mk-exide",
+      "makeName": "EXIDE",
+      "name": "EXIDE Mile-Plus 150AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-ex2",
+      "makeId": "mk-exide",
+      "makeName": "EXIDE",
+      "name": "EXIDE Tubular 200AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-ex3",
+      "makeId": "mk-exide",
+      "makeName": "EXIDE",
+      "name": "EXIDE Matrix 80AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-am1",
+      "makeId": "mk-amaron",
+      "makeName": "AMARON",
+      "name": "AMARON Pro 150AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-am2",
+      "makeId": "mk-amaron",
+      "makeName": "AMARON",
+      "name": "AMARON Hi-Way 100AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-sf1",
+      "makeId": "mk-sfsonic",
+      "makeName": "SF SONIC",
+      "name": "SF Sonic Volt 120AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "md-lm1",
+      "makeId": "mk-luminous",
+      "makeName": "LUMINOUS",
+      "name": "Luminous RedCharge 150AH",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    }
+  ],
+  "periods": [
+    {
+      "id": "wp-12m",
+      "months": 12,
+      "standardMonths": 12,
+      "proRataMonths": 0,
+      "label": "12 Months Standard",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "wp-12m12m",
+      "months": 24,
+      "standardMonths": 12,
+      "proRataMonths": 12,
+      "label": "12 Months Standard + 12 Months Pro-Rata",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "wp-18m18m",
+      "months": 36,
+      "standardMonths": 18,
+      "proRataMonths": 18,
+      "label": "18 Months Standard + 18 Months Pro-Rata",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "wp-24m",
+      "months": 24,
+      "standardMonths": 24,
+      "proRataMonths": 0,
+      "label": "24 months Standard",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "wp-24m24m",
+      "months": 48,
+      "standardMonths": 24,
+      "proRataMonths": 24,
+      "label": "24 Months Standard + 24 Months Pro-Rata",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "wp-36m36m",
+      "months": 72,
+      "standardMonths": 36,
+      "proRataMonths": 36,
+      "label": "36 Months Standard + 36 Months Pro-Rata",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    }
+  ],
+  "dealers": [
+    {
+      "id": "dl-01",
+      "name": "Spark Auto Electricals",
+      "contactNumber": "+91 98765 43210",
+      "address": "Shop 12, Metro Plaza, New Delhi",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "dl-02",
+      "name": "Power Source Battery House",
+      "contactNumber": "+91 87654 32109",
+      "address": "Sector 4, Hiranandani Complex, Mumbai",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "dl-03",
+      "name": "Energy Trade Dealers",
+      "contactNumber": "+91 76543 21098",
+      "address": "G-14, Green Avenue, Bangalore",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    },
+    {
+      "id": "dl-04",
+      "name": "Alpha Battery Hub",
+      "contactNumber": "+91 65432 10987",
+      "address": "Court Road, Civil Lines, Kolkata",
+      "status": "Active",
+      "createdAt": "2026-05-30T14:41:43.546Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "REG-582910",
+      "makeId": "mk-exide",
+      "makeName": "EXIDE",
+      "modelId": "md-ex1",
+      "modelName": "EXIDE Mile-Plus 150AH",
+      "serialNumber": "EXD-9031-H76",
+      "purchaseDate": "2025-08-15",
+      "warrantyMonths": 36,
+      "standardMonths": 18,
+      "proRataMonths": 18,
+      "warrantyPeriodLabel": "18M Standard + 18M Pro-Rata",
+      "expiryDate": "2028-08-15",
+      "standardExpiryDate": "2027-02-15",
+      "customerName": "Rahul Sharma",
+      "customerContact": "+91 91234 56789",
+      "customerAddress": "A-54, Block G, Hauz Khas, New Delhi",
+      "dealerId": "dl-01",
+      "dealerName": "Spark Auto Electricals",
+      "invoiceNumber": "INV-2025000",
+      "status": "Active",
+      "createdAt": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "id": "REG-582911",
+      "makeId": "mk-exide",
+      "makeName": "EXIDE",
+      "modelId": "md-ex2",
+      "modelName": "EXIDE Tubular 200AH",
+      "serialNumber": "EXD-4821-K32",
+      "purchaseDate": "2026-01-10",
+      "warrantyMonths": 36,
+      "standardMonths": 18,
+      "proRataMonths": 18,
+      "warrantyPeriodLabel": "18M Standard + 18M Pro-Rata",
+      "expiryDate": "2029-01-10",
+      "standardExpiryDate": "2027-07-10",
+      "customerName": "Siddharth Nair",
+      "customerContact": "+91 85642 93102",
+      "customerAddress": "Flat 402, Royal Palms, Bandra, Mumbai",
+      "dealerId": "dl-02",
+      "dealerName": "Power Source Battery House",
+      "invoiceNumber": "INV-2025001",
+      "status": "Active",
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "REG-582912",
+      "makeId": "mk-amaron",
+      "makeName": "AMARON",
+      "modelId": "md-am1",
+      "modelName": "AMARON Pro 150AH",
+      "serialNumber": "AMR-5542-X12",
+      "purchaseDate": "2023-04-12",
+      "warrantyMonths": 12,
+      "standardMonths": 6,
+      "proRataMonths": 6,
+      "warrantyPeriodLabel": "6M Standard + 6M Pro-Rata",
+      "expiryDate": "2024-04-12",
+      "standardExpiryDate": "2023-10-12",
+      "customerName": "Ananya Iyer",
+      "customerContact": "+91 73491 80214",
+      "customerAddress": "12, 4th Cross Road, Indiranagar, Bangalore",
+      "dealerId": "dl-03",
+      "dealerName": "Energy Trade Dealers",
+      "invoiceNumber": "INV-2025002",
+      "status": "Expired",
+      "createdAt": "2023-04-12T00:00:00.000Z"
+    },
+    {
+      "id": "REG-582913",
+      "makeId": "mk-luminous",
+      "makeName": "LUMINOUS",
+      "modelId": "md-lm1",
+      "modelName": "Luminous RedCharge 150AH",
+      "serialNumber": "LUM-1982-A05",
+      "purchaseDate": "2025-11-20",
+      "warrantyMonths": 36,
+      "standardMonths": 18,
+      "proRataMonths": 18,
+      "warrantyPeriodLabel": "18M Standard + 18M Pro-Rata",
+      "expiryDate": "2028-11-20",
+      "standardExpiryDate": "2027-05-20",
+      "customerName": "Vikram Sen",
+      "customerContact": "+91 61408 55431",
+      "customerAddress": "Block C-2, Salt Lake, Kolkata",
+      "dealerId": "dl-04",
+      "dealerName": "Alpha Battery Hub",
+      "invoiceNumber": "INV-2025003",
+      "status": "Active",
+      "createdAt": "2025-11-20T00:00:00.000Z"
+    }
+  ],
+  "company": {
+    "name": "PowerMax Industries Ltd.",
+    "shortName": "PowerMax",
+    "appTitleLabel": "Warranty Portal",
+    "contactPhone": "+91 98765 43210",
+    "contactEmail": "support@powermax.com",
+    "address": "Shop 12, Metro Plaza, New Delhi, India",
+    "logoDataUrl": ""
+  }
+}

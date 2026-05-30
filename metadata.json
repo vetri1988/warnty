@@ -1,0 +1,6 @@
+{
+  "name": "Battery Warranty System",
+  "description": "An enterprise-grade, full-stack battery warranty registration and status checking system featuring admin dashboards, relational master settings, registered battery tracking, public warranty check portals, and secure JWT authentication.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

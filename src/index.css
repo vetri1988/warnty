@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-primary-50: #f0f7ff;
+  --color-primary-100: #e0effe;
+  --color-primary-500: #0284c7;
+  --color-primary-600: #0266a0;
+  --color-primary-700: #034b75;
+  --color-primary-900: #072a43;
+  
+  --color-yellow-accent: #facc15;
+  --color-yellow-accent-hover: #eab308;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans tracking-normal antialiased selection:bg-yellow-100 selection:text-slate-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-slate-900;
+  }
+}
+
+/* Print utility for Warranty Card */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
